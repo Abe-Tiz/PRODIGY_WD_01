@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.scrolled .nav-link:hover {
+  color: red; /* Change color on hover when scrolled */
+}
