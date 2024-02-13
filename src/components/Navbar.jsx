@@ -91,7 +91,14 @@ const Navbar = () => {
                 <NavItems />
               </ul>
             </div>
-            <a href='/' className="btn btn-ghost text-xl">ABIYE</a>
+            <a href="/" className="btn-ghost btn-circle">
+              {" "}
+              <img
+                className="rounded-full w-16"
+                src="/images/logo/logo.jpg"
+                alt=""
+              />
+            </a>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">

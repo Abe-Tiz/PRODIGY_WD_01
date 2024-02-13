@@ -4,8 +4,8 @@ const Card = ({image}) => {
   return (
     <div className="card lg:card-side bg-base-100 shadow-xl">
       <figure>
-              <img
-                  className='w-[200px]'
+        <img
+          className='w-[200px]'
           src={image}
           alt="Album"
         />
@@ -14,7 +14,7 @@ const Card = ({image}) => {
         <h2 className="card-title">New album is released!</h2>
         <p>Click the button to listen on Spotiwhy app.</p>
         <div className="card-actions justify-end">
-          <button className="btn btn-primary">Listen</button>
+          <button className="btn bg-yellow text-white">Listen</button>
         </div>
       </div>
     </div>

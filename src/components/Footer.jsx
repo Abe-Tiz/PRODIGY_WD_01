@@ -5,9 +5,9 @@ const Footer = () => {
     <>
       <footer className="m-0 flex items-center flex-col md:flex-row justify-between footer footer-center p-10 bg-primary text-primary-content">
         <aside>
-          {/* <img src="/logo.png" alt="" /> */}
+          <img className='rounded-full w-16' src="/images/logo/logo.jpg" alt="" />
           <p className="my-3 md:w-40">
-            Savor the artistry where every dish is a culinary masterpiece
+            Quam vulputate dignissim suspendisse in est ante in nibh mauris.
           </p>
         </aside>
         <nav>
